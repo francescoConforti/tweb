@@ -1,0 +1,156 @@
+/*
+  Autore: Francesco Conforti
+  Foglio di stile per tmnt.html
+*/
+
+body{
+    background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/background.png");
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#banner{
+  background-image: url("http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/bannerbg.png");
+  background-repeat: repeat-x;
+  text-align: center;
+}
+
+img{
+  height: 50px;
+}
+
+img.defRes{
+	height: auto;
+}
+
+h1{
+	font-size: 24pt;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-shadow: 3px 3px #999999;
+  text-align: center;
+}
+
+#main{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-color: gray;
+  border-width: 4px;
+  border-radius: 10px;
+  overflow: auto;
+  padding: 0px;
+}
+
+#reviewContent{
+  float: left;
+  width: 550px;
+  overflow: auto;
+  padding: 0px;
+  margin-bottom: -5px;  /* fix to get no vertical space between overview and footer on firefox's default zoom level*/
+}
+
+.reviewColumn{
+  float: left;
+  width: 47%;
+}
+
+#firstColumn{
+  margin-right: 2%;
+}
+
+#averageScore{
+	background-image: url(http://courses.cs.washington.edu/courses/cse190m/11sp/homework/2/rbg.png);
+	background-repeat: repeat-x;
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+  float: top;
+}
+
+#averageScore > span{
+  vertical-align: 20%;
+}
+
+#averageScore img{
+	height: 83px;
+}
+
+.reviewBox{
+  background-color: #E8DC9B;
+  border-style: solid;
+  border-color: gray;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.reviewBox q{
+  font-weight: bold;
+  font-size: 8pt;
+}
+
+.critic{
+  margin-bottom: 20pt;
+}
+
+.reviewBox img, .critic img{
+  float: left;
+  margin-right: 5px;
+}
+
+.reviewBox, .critic{
+    overflow: auto;
+}
+
+.publication{
+  font-style: italic;
+}
+
+#overview{
+  float: right;
+  width: 250px;
+  font-family: Arial, sans-serif;
+  font-size: 8pt;
+}
+
+#overview > dl{
+  padding-left: 10pt;
+  padding-right: 10pt;
+}
+
+dt{
+  font-weight: bold;
+}
+
+dd{
+  margin-bottom: 10pt;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+#footer{
+  float: bottom;
+  clear: both;
+  padding: 5px;
+  text-align: center;
+}
+
+#validators{
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+}
+
+#validators img{
+  opacity: 0.5;
+}
+
+.greenBG{
+  background-color: #A2B964;
+}
